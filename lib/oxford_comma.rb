@@ -4,11 +4,9 @@ if array.length() == 1
 elsif array.length() == 2
   return array.join(" and ")
 elsif array.length() == 3
-  array.pop
-  array << ", and"
-  array.pop
-  array<< ","
-  array
+  first = array[0:1]
+  first
+
 
 
 end
