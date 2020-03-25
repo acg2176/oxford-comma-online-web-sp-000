@@ -10,7 +10,7 @@ elsif array.length() == 3
 elsif array.length > 3
   new_array = []
   new = array.pop
-  new.each do |word|
+  array.each do |word|
     new_array.append(word)
     new_array.append(", ")
   end
