@@ -11,13 +11,6 @@ elsif array.length() >= 3
   array << "and "
   array << last
   array.join
-#elsif array.length > 3
-  #last = array.pop
-  #array.each do |word|
-    #word << ", "
-#  end
-  #array << "and "
-#  array << last
-  #array.join
+
 end
 end
