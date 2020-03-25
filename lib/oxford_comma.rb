@@ -16,6 +16,7 @@ elsif array.length > 3
   end
   new_array << "and "
   new_array << new
+  new_array.join
 
 
 end
