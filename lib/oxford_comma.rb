@@ -7,6 +7,15 @@ elsif array.length() == 3
   array.insert(1, ", ")
   array.insert(3, ", and ")
   array.join
+elsif array.length > 3
+  new_array = []
+  new = array.pop
+  new.each do |word|
+    new_array.append(word)
+    new_array.append(", ")
+  end
+  new_array << "and "
+  new_array << new
 
 
 end
